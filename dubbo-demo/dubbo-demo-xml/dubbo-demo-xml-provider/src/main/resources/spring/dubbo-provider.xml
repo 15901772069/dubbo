@@ -31,6 +31,8 @@
 
     <dubbo:protocol name="dubbo" port="-1"/>
 
+<!--    <dubbo:provider server="netty4"/>-->
+
     <bean id="demoService" class="org.apache.dubbo.demo.provider.DemoServiceImpl"/>
     <bean id="greetingService" class="org.apache.dubbo.demo.provider.GreetingServiceImpl"/>
 

@@ -30,6 +30,8 @@
 
     <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
 
+<!--    <dubbo:consumer client="netty4"/>-->
+
     <dubbo:reference provided-by="demo-provider" id="demoService" check="false"
                      interface="org.apache.dubbo.demo.DemoService"/>
 
